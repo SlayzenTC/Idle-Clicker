@@ -1,14 +1,10 @@
-# Idle Clicker — Version 20 "Computer Update"
+# Idle Clicker — Version 20.1
 
-Idle Clicker v20 apporte une grande adaptation PC :
+Idle Clicker v20.1 est une mise à jour de maintenance :
 
-- **Nouvelle résolution : 1824×1026**, parfaitement adaptée aux écrans d’ordinateur.
-- **Plus de formes flottantes** (13) pour un fond animé encore plus dynamique.
-- **Refonte de la formule de clics** : progression boostée après chaque ascension grâce à un multiplicateur ×15 par ascension.
-- **Éléments UI et entités redimensionnés** pour convenir à cette nouvelle taille d’écran.
-- **Changelog enrichi**, accessible depuis le menu.
-- Toutes les fonctionnalités classiques sont conservées : achievements, upgrades, statistiques, notifications, fond animé, etc.
+- **Correction de bugs mineurs** sur l’affichage des boosts après l’ascension.
+- Toutes les fonctionnalités de la v20 sont conservées : résolution 1824×1026, fond animé, ascension, upgrades, achievements, notifications, changelog, etc.
 
 ---
 
-*Profitez d’une expérience Idle Clicker optimisée pour ordinateur ! Consultez le changelog en jeu pour plus de détails.*
+*Cette mise à jour vise à améliorer la cohérence de l’affichage après l’ascension. Consultez le changelog en jeu pour l’historique complet.*
