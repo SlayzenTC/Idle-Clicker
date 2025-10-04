@@ -10,7 +10,7 @@ pygame.init()
 # -------------------- DIMENSIONS ET FENÊTRE --------------------
 WIDTH, HEIGHT = 1824, 1026
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Idle Clicker version 20 - Computer Update")
+pygame.display.set_caption("Idle Clicker version 20.1")
 clock = pygame.time.Clock()
 
 # -------------------- CHARGEMENT DU FOND --------------------
@@ -426,7 +426,7 @@ while running:
                         prestige_count = 0
                         base_prestige_threshold = int(1000 * (1.75 ** prestige_count))
                         spawn_particles(ascension_button.rect.center, 50, YELLOW)
-                        notifications.append({"message": "Ascension effectuée ! Boost XP: {}x, Boost Prestige: {}x".format(3**ascension_count, 2**ascension_count), "timer": 3000})
+                        notifications.append({"message": "Ascension effectuée ! Boost XP: {}x, Boost Prestige: {}x".format(15**ascension_count, 2**ascension_count), "timer": 3000})
             elif game_state in ["achievements", "settings", "history", "changelog"]:
                 if back_button.is_hovered(mouse_pos):
                     game_state = "menu"
@@ -465,7 +465,7 @@ while running:
             shape.draw(screen)
 
     if game_state == "menu":
-        title_surf = big_font.render("Idle Clicker Version 20 - Computer Update",True, BLACK)
+        title_surf = big_font.render("Idle Clicker Version 20.1",True, BLACK)
         title_rect = title_surf.get_rect(center=(WIDTH//2, 100))
         screen.blit(title_surf, title_rect)
         for btn in menu_buttons.values():
@@ -601,10 +601,11 @@ while running:
         title = font.render("Changelog", True, BLACK)
         screen.blit(title, (WIDTH//2 - title.get_width()//3, 30))
         changes = [
-            "v20 - Computer Update - Changement taille écran et adaptation des entités du jeu à la taille de l'appareil & changement formule de clics",
+            "v20.1 - Corrections de bugs mineurs concernant l'affichage des boosts après l'ascension"
+            "v20 - Changement taille écran et adaptation des entités du jeu à la taille de l'appareil & changement formule de clics",
             "v19.2 - Changement taille de l'écran & corrections de bugs mineurs",
             "v19.1 - Correction de bugs mineurs",
-            "v19 - Changelog Update - Ajout changelogs & refonte suffixes",
+            "v19 - Ajout changelogs & refonte suffixes",
             "v18 - Correction des boosts",
             "v17 - Ajout des particules et formes flottantes",
             "v16 - Implémentation du système d'ascension",
