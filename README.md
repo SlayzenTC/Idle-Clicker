@@ -1,10 +1,11 @@
-# Idle Clicker — Version 20.1
+# Idle Clicker — Version 20.1.1
 
-Idle Clicker v20.1 est une mise à jour de maintenance :
+Idle Clicker v20.1.1 est une mise à jour de maintenance :
 
-- **Correction de bugs mineurs** sur l’affichage des boosts après l’ascension.
-- Toutes les fonctionnalités de la v20 sont conservées : résolution 1824×1026, fond animé, ascension, upgrades, achievements, notifications, changelog, etc.
+- **Correction d’un bug d’affichage sur l’écran changelog**.
+- Ajout de l’entrée correspondante dans le changelog du jeu.
+- Toutes les fonctionnalités, la résolution (1824×1026), les mécaniques et l’expérience de jeu restent inchangées par rapport à la v20.1.
 
 ---
 
-*Cette mise à jour vise à améliorer la cohérence de l’affichage après l’ascension. Consultez le changelog en jeu pour l’historique complet.*
+*Consultez l’écran Changelog en jeu pour l’historique complet des versions.*
